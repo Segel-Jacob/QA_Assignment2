@@ -46,9 +46,7 @@ namespace Segel_Assignment2
             {
                 showMenu = DisplayMenu();
             }
-
             Console.ReadLine();
-
         }
         public static bool DisplayMenu()
         {
@@ -115,9 +113,7 @@ namespace Segel_Assignment2
                 default:
                     return true;
             }
-
         }
-
         public static bool CheckInteger(string num)
         {
             if (!int.TryParse(num, out int result))
@@ -137,7 +133,6 @@ namespace Segel_Assignment2
                 
             }
         }
-
         public static bool CheckNumber(int num)
         {
             if (num>0)
