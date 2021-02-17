@@ -25,7 +25,7 @@ namespace Segel_Assignment2
             width = w;
         }
 
-        public int GetLenght()
+        public int GetLength()
         {
             return length;
         }
@@ -57,5 +57,6 @@ namespace Segel_Assignment2
             return length * width;
         }
     }
+        
 }
 
